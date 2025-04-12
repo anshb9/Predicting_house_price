@@ -20,7 +20,7 @@ This app allows users to predict the selling price of a house based on various i
 
 ## 📊 Model & Dataset
 
-- **Model Used**: Linear Regression (can be upgraded to other ML models)
+- **Model Used**: Linear Regression is used by default. Ridge and Lasso Regression option is also availabale
 - **Dataset**: (Mention your dataset source, e.g., Kaggle Boston Housing, or custom dataset)
 - **Preprocessing Steps**:
   - Handling missing values
