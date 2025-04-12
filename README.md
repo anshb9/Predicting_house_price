@@ -1,6 +1,4 @@
-<div>
-# 🏠 Predicting House Prices - Streamlit Web App
-</div>  
+# 🏠 Predicting House Prices - Streamlit Web App 
 
 Welcome to the **House Price Prediction Web App**! 🧠💰  
 This app allows users to predict the selling price of a house based on various input features using a trained machine learning model.
