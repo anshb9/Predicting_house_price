@@ -1,54 +1,90 @@
-readme_content = """
-# 🏡 DreamHomes.com – House Price Prediction Web App
+<div>
+# 🏠 Predicting House Prices - Streamlit Web App
+</div>  
 
-Welcome to **DreamHomes.com**, an interactive and user-friendly **house price prediction app** built using **Streamlit**! 🏠✨
+Welcome to the **House Price Prediction Web App**! 🧠💰  
+This app allows users to predict the selling price of a house based on various input features using a trained machine learning model.
 
-[View Live App 🔗](https://predictinghouseprice-2wmils6atc7qpjmjotnkyq.streamlit.app/)
-
----
-
-## 📂 Overview
-DreamHomes.com allows users to:
-- 💯 Explore housing listings on an interactive map
-- 📊 Predict home prices using regression models
-- 🌐 Visualize and filter homes by price range
-- ✏️ Input custom features and receive instant price estimates
-
-Whether you're a home buyer, data enthusiast, or just curious about Seattle housing prices, this app offers a great way to engage with real-world data.
+🔗 **Live App**: [Click here to try it out](https://predictinghouseprice-2wmils6atc7qpjmjotnkyq.streamlit.app/)  
+📁 **Repository**: This GitHub repo contains the codebase, model, and requirements to run the app locally.
 
 ---
 
-## 📈 Features
-- ☑️ **Interactive Map View**: Explore homes by filtering through price range
-- ☑️ **Multiple Regression Options**: Choose between Linear, Lasso, and Ridge
-- ☑️ **Custom Input Fields**: Add variables like `sqft_living`, `sqft_lot`, `sqft_basement`, and more
-- ☑️ **Predicted Price Output**: Instantly receive a calculated price
-- ☑️ **Embedded Video Guide**: Learn how it works with a tutorial
-- ☑️ **Appointment Form**: Submit details for home viewings and provide feedback
+## 🚀 Features
+
+- Interactive user interface with **Streamlit**
+- Machine Learning model trained on housing data
+- Real-time prediction based on user input
+- Clean and modern design
+- Easy deployment with Streamlit Cloud
 
 ---
 
-## 🛠️ Tech Stack
-- **Frontend & UI**: Streamlit
-- **Data Manipulation**: Pandas, Numpy
-- **Modeling**: Scikit-learn (Linear Regression, Lasso, Ridge)
-- **Visualization**: Plotly, Seaborn, Matplotlib
-- **Deployment**: Streamlit Cloud
+## 📊 Model & Dataset
+
+- **Model Used**: Linear Regression (can be upgraded to other ML models)
+- **Dataset**: (Mention your dataset source, e.g., Kaggle Boston Housing, or custom dataset)
+- **Preprocessing Steps**:
+  - Handling missing values
+  - Feature encoding
+  - Train-test split
+  - Model training & evaluation
 
 ---
 
-## 🗂️ Dataset
-The app uses the [kc_house_data.csv](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction) dataset, which contains housing prices and features for homes in King County, USA.
+## 🖥️ Tech Stack
+
+| Tool           | Purpose                            |
+|----------------|-------------------------------------|
+| Python         | Programming language                |
+| Pandas, NumPy  | Data manipulation                   |
+| Scikit-learn   | Machine Learning                    |
+| Streamlit      | Web app framework                   |
+| Jupyter Notebook | EDA and model training            |
 
 ---
 
-## 📚 How to Run Locally
+## 📷 Screenshots
+
+| Home Page | Prediction Page |
+|-----------|-----------------|
+| ![Home](screenshots/home.png) | ![Predict](screenshots/predict.png) |
+
+> *Tip: Add a folder `/screenshots` in your repo and upload images to show off your UI!*
+
+---
+
+## 📦 Installation
+
+Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/house-price-predictor.git
-cd house-price-predictor
+git clone https://github.com/yourusername/predicting-house-price.git
+cd predicting-house-price
 pip install -r requirements.txt
+```
+## ▶️ Run Locally
+
+```bash
 streamlit run Housing_app.py
+```
+
+## 🧠 Future Improvements
+
+- Use more advanced models like RandomForest, XGBoost
+- Add more feature inputs for better accuracy
+- Include model evaluation metrics in the UI
+- Connect to a real-time housing database
+
+## 🤝 Contributing
+
+Contributions are welcome! If you have ideas or want to add new features, feel free to fork this repo and open a pull request.
+
+## 📩 Connect with Me
+- 💼 [LinkedIn](https://www.linkedin.com/in/anshsinghbhadauriya/)
+- 📧 anshbhadauriya221@gmailcom
 
 
-Link to the app ---  [Link to the APP](https://predictinghouseprice-2wmils6atc7qpjmjotnkyq.streamlit.app/)
+
+
+
