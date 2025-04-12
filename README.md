@@ -21,7 +21,7 @@ This app allows users to predict the selling price of a house based on various i
 ## 📊 Model & Dataset
 
 - **Model Used**: Linear Regression is used by default. Ridge and Lasso Regression option is also availabale
-- **Dataset**: (Mention your dataset source, e.g., Kaggle Boston Housing, or custom dataset)
+- **Dataset**: [kc_house_data.csv](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction)
 - **Preprocessing Steps**:
   - Handling missing values
   - Feature encoding
@@ -40,18 +40,7 @@ This app allows users to predict the selling price of a house based on various i
 | Streamlit      | Web app framework                   |
 | Jupyter Notebook | EDA and model training            |
 
----
-
-## 📷 Screenshots
-
-| Home Page | Prediction Page |
-|-----------|-----------------|
-| ![Home](screenshots/home.png) | ![Predict](screenshots/predict.png) |
-
-> *Tip: Add a folder `/screenshots` in your repo and upload images to show off your UI!*
-
----
-
+  
 ## 📦 Installation
 
 Clone the repo and install dependencies:
